@@ -1,0 +1,2 @@
+#2021-04-13
+ALTER TABLE `wine`.`users` ADD COLUMN `menuroles` VARCHAR(50) NULL AFTER `updated_at`; 

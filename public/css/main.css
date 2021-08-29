@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+.text-black{
+    color: #000 !important;
+}
+
+.card-header {
+    border-radius: 10% 10% 0 0;
+}
+
+.card-body {
+    border-radius: 0 0 10% 10%;
+
+    /*background-color: rgb(242 242 242);*/
+}
+
+.card  {
+    border: 0;
+    /* height: 500px; */
+    border-radius: 1.5rem;
+    background-color: rgb(242 242 242) !important;
+}
+
+.card-login {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.card-header {
+    border: 0;
+}
+
+.card-header:first-child {
+    border-radius: calc(2.25rem - 1px) calc(2.25rem - 1px) 0 0;
+}
+
+.card:first-child {
+    border-radius: calc(1.25rem - 1px) calc(1.25rem - 1px) calc(1.25rem - 1px) calc(1.25rem - 1px);
+}
+
+.slider-background {
+
+    height: fit-content;
+    /*width:100%;*/
+    background: url(../images/banner.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.no-wrap{
+    white-space: nowrap;
+}
+
+.no-underline{
+    text-decoration: none !important;
+}
+
+a.text-black:hover{
+    color:#888 !important;
+}
+
+.py-4 {
+    min-height: 100vh;
+    height: fit-content;
+    /*width:100%;*/
+    background: url(../images/loginbackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.card-header {
+    background-color: rgb(242 242 242);
+}
+
+.card-footer {
+    border-radius: 0 0 0.8rem 0.8rem;
+    border: 0;
+    padding: 2.4rem 1.35rem;
+    background: #ececec !important;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.rounded-circle-1 {
+    text-align: center;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 6px;
+    color: #a3a5ab;
+    cursor: pointer;
+    border: 1px solid #a3a5ab;
+}
+
+.rounded-circle-1:hover {
+    transition: all .4s;
+    color: #3b3b3b;
+    border: 1px solid #3b3b3b;
+}
+
+.card {
+    border-radius: 0.8rem;
+}
+
+.top-text {
+    font-size: 30px;
+    font-weight:800;
+}
+
+.banner-text {
+    font-size: 20px !important;
+    color:white !important;
+    font-weight:800;
+    padding-top:22px;
+}
+
+
+
+.ma-bo {
+    margin-bottom: -2px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.logo1 {
+    /*width:30%;*/
+    height:37px
+}
+
+.banner-img{
+    heigth:56px !important;
+    margin-bottom:18px;
+}
+.banner-img-text{
+    font-size: 30px !important;
+    color:white !important;
+    font-weight:800;
+    margin-top:18px;
+}
+
+@media screen and (max-width:576px) {
+    .banner-img{
+        heigth:37px !important;
+        margin-bottom:18px;
+        width:148px;
+    }
+    .banner-img-text{
+        font-size: 20px !important;
+        color:white !important;
+        font-weight:800;
+        margin-top:13px;
+    }
+}
+
+
+.text-center {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    font-weight:500
+}
+
+.text-center1{
+    text-align: center !important;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 3px;
+    padding: 70px 100px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 16px;
+    color: #fff;
+    pointer-event: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.input-container input {
+    border: 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    background: transparent;
+    width: 98%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-container input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+
+
+.btn {
+    color: #fff;
+    background-color: #e74c3c;
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    /* margin-top: 50px; */
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.login-button {
+    background-color: #98b24a;
+    color: white;
+    border-radius: 11px;
+    border: 0;
+    padding: 10px 50px;
+}
+
+
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+    top: -12px;
+    font-size: 12px;
+}
+
+.card-footer {
+    background-color: #f7f7f7;
+}
+
+.mar-min {
+    margin-left: -20px;
+}
+
+.color-check {
+    color: #98b24a;
+}
+
+#check-circle {
+    display: none;
+}
+
+.navbar-background {
+    background: #ad005c !important;
+    padding:1.1rem;
+
+}
+.logo2{
+    margin:20px 0;
+    height:37px;
+    width:148px;
+}
+
+.footer-logo{
+    margin-bottom:30px;
+    height:25px;
+    width:120px;
+}
+
+.wine-bottle {
+    height:52px;
+    width:52px;
+}
+
+.pagination-box{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-right: 15px;
+}
+.wine_img{
+    float: left;
+    clear: both;
+}
+.wine_img img{
+    height: 80px;
+    width: auto;
+}
+.maker_avatar{
+    width: 50px;
+}
+
+.product_img{
+    height:40px;
+}
+
+.page-item.active .page-link{
+    background-color: #ad005c;
+    border-color: #ad005c;
+}
+.page-link{
+    color: #ad005c;
+}
+.page-link:hover{
+    color: #ad005c;
+}
+.page-link:focus{
+    box-shadow: 0 0 0 0.2rem rgb(173 0 92 / 25%);
+}
+#pdf{
+    padding: 15px;
+    font-size: 16px;
+}
